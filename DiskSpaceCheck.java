@@ -13,7 +13,7 @@ public class DiskSpaceCheck
 {
     public static void main(String[] args)
         {
-    	File file = new File("c:");
+    	File file = new File("/");
 	   	long totalSpace = file.getTotalSpace(); //total disk space in bytes.
 	   	long usableSpace = file.getUsableSpace(); ///unallocated / free disk space in bytes.
 	   	long freeSpace = file.getFreeSpace(); //unallocated / free disk space in bytes.
